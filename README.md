@@ -10,6 +10,7 @@ This is a template for a new NPM package.
 * **PNPM** as more efficient Node dependency manager
 * **TypeScript**
 * Tests via **jest**
+* Generated code documentation via **TypeDoc**
 * **SonarCloud** integration
 * **[Semantic Release](https://github.com/semantic-release/semantic-release)** for fast releases
 * **Commitizen** for consistent commits
@@ -22,7 +23,8 @@ If you want to use this template as basis of a new project, please make sure to 
 1. Adjust package.json (package name, description, keywords, repository url)
 2. Copy the CI configuration you want to use from .ci folder into the project root
 3. Set `sonar.organization` in sonar-project.properties and `sonarcloud.organization` in TravisCI configuration (if you're using it)
-4. Remove sample files or adjust them
+4. If this package should be private, remove _.npmrc_ file
+5. Remove sample files or adjust them
 
 ## Setting up CI
 
